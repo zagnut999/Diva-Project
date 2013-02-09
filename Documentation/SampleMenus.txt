@@ -1,0 +1,32 @@
+# Dual VCO Shape
+@0101
+:ideal
+:analog1
+:analog2
+
+# LFO 1 Waveform
+@0102
+:sine
+:triangle
+:saw up
+:saw down
+:sqr hi-lo
+:sqr lo-hi
+:rand hold
+:rand glide
+
+# LFO 1 Restart
+@0201
+:sync
+:gate
+:single
+:random
+
+#*** LFO 1 Sync
+#A ton of parameters, all short strings of numbers
+
+#*** LFO 1 Rate Mod
+#A ton of parameters, longest is 10 chars
+
+#*** LFO 1 Depth Mod
+#A ton of parameters, longest is 10 chars
